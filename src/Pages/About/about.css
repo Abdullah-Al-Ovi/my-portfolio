@@ -162,5 +162,14 @@
 .resume__description{
     font-size: var(--smaller-font-size);
     line-height: 1.6;
-    color: rgb(216, 214, 214);
+    color: rgb(190, 187, 187);
+}
+
+.gitLinked{
+    color:rgb(190, 187, 187) ;
+    font-size: 27px;
+
+}
+.gitLinked:hover{
+    color: var(--first-color);
 }
