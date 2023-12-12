@@ -7,7 +7,7 @@ export const Info = () => {
            return(
             <li className="into__item" key={index}>
                 <span className="info__title">{title}</span>
-                <span className="info__description">{description}</span>
+                <span style={{fontSize:'17px'}} className="info__description">{description}</span>
             </li>
            ) 
         })}

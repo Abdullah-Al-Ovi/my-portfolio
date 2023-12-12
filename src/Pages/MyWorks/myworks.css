@@ -1,7 +1,7 @@
 .portfolio__container{
     grid-template-columns: repeat(3,1fr);
     max-width: 1000px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
 }
 
 .portfolio__item{

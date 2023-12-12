@@ -26,22 +26,9 @@ export const About = () => {
                             <a target="_blank" rel="noreferrer" href="https://github.com/Abdullah-Al-Ovi" className="gitLinked"><FaGithub></FaGithub></a>
                             <a target="_blank" rel="noreferrer" className="gitLinked" href="https://www.linkedin.com/in/abdullah-al-ovi-7042b12a3/" ><FaLinkedin></FaLinkedin></a>
                         </div>
-                        {/* <a href={CV} download='' className="button">Download CV <span className="button_icon"><FaDownload></FaDownload></span></a> */}
-                        <DownloadLink
-                            label={
-                                <div>
-                                  Download CV <FaDownload style={{ marginLeft: '5px' }} />
-                                </div>
-                              }
-                            filename="CV.pdf"
-                            exportFile={() => Promise.resolve(CV_URL)}
-                            className="button"
-                            style={{listStyle:'none'}}
-                        >
-                            {/* Download CV <FaDownload></FaDownload> <span className="button__icon" 
-                            
-                            ></span> */}
-                        </DownloadLink>
+                        <a href='https://drive.google.com/file/d/1umVq473y46hrzzmyaW3sD_O7OsCxAruw/view?usp=sharing' 
+                        target="_blank" rel="noreferrer" className="button">Download CV <span className="button__icon"><FaDownload></FaDownload></span></a>
+                        
                     </div>
 
                     <div style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '15px', padding: '20px', marginRight: '10px' }} className="stats">

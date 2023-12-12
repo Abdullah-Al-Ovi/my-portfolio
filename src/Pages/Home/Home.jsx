@@ -10,8 +10,9 @@ export const Home = () => {
             <div className="home__content">
                 <div className="home__data">
                     <h1 className="home__title">
-                        <span>Greetings. I am Abdullah Al Ovi</span>
-                        <span style={{ color: 'gray' }}> Web Developer</span>
+                        <span>Greetings.
+                            <span style={{display:'block'}}>I am Abdullah Al Ovi</span></span>
+                       
                     </h1>
 
                     <p className="home__description">
