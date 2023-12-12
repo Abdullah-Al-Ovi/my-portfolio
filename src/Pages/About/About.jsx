@@ -2,12 +2,14 @@ import { FaDownload } from "react-icons/fa"
 import { Info } from "../../Components/Info"
 import { Stats } from "../../Components/Stats"
 import { Skills } from "../../Components/Skills"
+import DownloadLink from "react-download-link";
 import { ResumeItem } from "../../Components/ResumeItem"
 import { resume } from "../../../data"
-import { FaGithub,FaLinkedin } from "react-icons/fa"
-import CV from '../../assets/steve-Cv.pdf'
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+import CV from '../../assets/CV.pdf'
 import './about.css'
 export const About = () => {
+    const CV_URL = CV
     return (
         <main className="section container">
             <section className="about">
@@ -20,11 +22,26 @@ export const About = () => {
                         <ul className="info__list grid">
                             <Info></Info>
                         </ul>
-                        <div style={{margin:'13px',marginBottom:'21px',display:'flex',gap:'17px',alignItems:'center'}} className="block">
+                        <div style={{ margin: '13px', marginBottom: '21px', display: 'flex', gap: '17px', alignItems: 'center' }} className="block">
                             <a target="_blank" rel="noreferrer" href="https://github.com/Abdullah-Al-Ovi" className="gitLinked"><FaGithub></FaGithub></a>
                             <a target="_blank" rel="noreferrer" className="gitLinked" href="https://www.linkedin.com/in/abdullah-al-ovi-7042b12a3/" ><FaLinkedin></FaLinkedin></a>
                         </div>
-                        <a href={CV} download='' className="button">Download CV <span className="button_icon"><FaDownload></FaDownload></span></a>
+                        {/* <a href={CV} download='' className="button">Download CV <span className="button_icon"><FaDownload></FaDownload></span></a> */}
+                        <DownloadLink
+                            label={
+                                <div>
+                                  Download CV <FaDownload style={{ marginLeft: '5px' }} />
+                                </div>
+                              }
+                            filename="CV.pdf"
+                            exportFile={() => Promise.resolve(CV_URL)}
+                            className="button"
+                            style={{listStyle:'none'}}
+                        >
+                            {/* Download CV <FaDownload></FaDownload> <span className="button__icon" 
+                            
+                            ></span> */}
+                        </DownloadLink>
                     </div>
 
                     <div style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '15px', padding: '20px', marginRight: '10px' }} className="stats">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../../assets/ovi (1).jpg'
+import Profile from '../../assets/pixelcut-export.png'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 import './home.css'
