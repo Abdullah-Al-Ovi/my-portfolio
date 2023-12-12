@@ -58,7 +58,7 @@ export const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="contact_form">
           <div className="form__input-group">
             <div className="form__input-div">
-              <input type="text" name='user_name' placeholder='Your Name' className="form__control" required />
+              <input  type="text" name='user_name' placeholder='Your Name' className="form__control" required />
             </div>
             <div className="form__input-div">
               <input type="email" name='user_email' placeholder='Your Email' className="form__control" required/>
@@ -69,7 +69,7 @@ export const Contact = () => {
           </div>
 
           <div className="form__input-div">
-             <textarea name='message' placeholder='Your Message' className="form__control textarea" required></textarea>
+             <textarea name='message' placeholder='Your Message'  className="form__control textarea" required></textarea>
             </div>
             <button type='submit' className="button">
               Send Message

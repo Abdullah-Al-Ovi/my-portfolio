@@ -77,5 +77,10 @@
     font-size: var(--h3-font-size);
     line-height: 64px;
 }
-
+.form__control::placeholder{
+    padding: 7px;
+}
+.form__control{
+    padding: 11px;
+}
 

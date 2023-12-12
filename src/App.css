@@ -3,24 +3,24 @@
 
 /* CSS Variables */
 
-:root{
+:root {
   /* Colors */
   /* Color mode HSL */
-  --first-color: hsl(271,76%,53%);
+  --first-color: hsl(271, 76%, 53%);
   --title-color: #fff;
-  --container-color: hsl(0,0%,93%);
+  --container-color: hsl(0, 0%, 93%);
   --nav-bg-color: rgba(255, 255, 255, 0.8);
 
-  --text-color: hsl(0,0%,50%);
-  --body-color: hsl(0,0%,100%);
-  
-  --border-color: hsl(0,0%,87%);
+  --text-color: hsl(0, 0%, 50%);
+  --body-color: hsl(0, 0%, 100%);
+
+  --border-color: hsl(0, 0%, 87%);
   --text-white: #fff;
 
   /* Font and Typography */
 
   --body-font: 'Open Sans', sans-serif;
-  --second-font:'Poppins', sans-serif ;
+  --second-font: 'Poppins', sans-serif;
 
   --big-font-size: 56px;
   --h1-font-size: 50px;
@@ -40,52 +40,75 @@
   --weight-800: 800;
 }
 
+/* Responsive Typography */
+@media screen and (max-width:1200px) {
+  :root {
+    --big-font-size: 36px;
+    --h1-font-size: 32px;
+    --h2-font-size: 24px;
+    --h3-font-size: 20px;
+    --large-font-size: 16px;
+    --normal-font-size: 15px;
+    --small-font-size: 14px;
+    --smaller-font-size: 13px;
+    --tiny-font-size: 11px;
+  }
+
+}
+
 /* Base */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body,input,textarea{
+body,
+input,
+textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--weight-500);
 }
 
-body{
+body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   color: var(--text-color);
   font-family: var(--second-font);
   font-weight: var(--weight-700);
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-button,input,textarea{
+button,
+input,
+textarea {
   background-color: transparent;
   border: none;
   outline: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
 /* Reusable CSS */
 
-.container{
+.container {
   max-width: 1140px;
   padding-inline: 15px;
   margin-inline: auto;
@@ -93,27 +116,27 @@ img{
 
 
 
-.grid{
+.grid {
   display: grid;
   gap: 20px;
 }
 
-.section{
+.section {
   padding-block: 70px;
 }
 
-.section__title{
+.section__title {
   font-size: var(--big-font-size);
   font-weight: var(--weight-800);
   text-align: center;
   margin-bottom: 70px;
 }
 
-.section__title span{
+.section__title span {
   color: var(--first-color);
 }
 
-.button{
+.button {
   display: inline-block;
   color: var(--title-color);
   border: 1px solid var(--first-color);
@@ -127,11 +150,11 @@ img{
   transition: all 0.25s ease-in-out;
 }
 
-.button:hover{
+.button:hover {
   color: var(--text-white);
 }
 
-.button::before{
+.button::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -141,11 +164,11 @@ img{
   transition: all 0.3s ease-out;
 }
 
-.button:hover::before{
+.button:hover::before {
   transform: translateX(0);
 }
 
-.button__icon{
+.button__icon {
   background-color: var(--first-color);
   position: absolute;
   inset-block: -2px;
