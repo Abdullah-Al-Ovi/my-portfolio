@@ -247,27 +247,42 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Trend Junction',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Web Application',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'N/A',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Frontend : ',
+        desc: 'ReactJs,Firebase',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Backend : ',
+        desc: 'NodeJs,MongoDB',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'Live  : ',
+        desc: `<a target='_black' href='https://trend-junction-shop.surge.sh/'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Client Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/trend-junction-client'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Server Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/trend-junction-server'>Click Here</a>`,
       },
     ],
   },
@@ -275,27 +290,42 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Shop Sync',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Web Application',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'N/A',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: 'Frontend : ',
+        desc: 'ReactJs,Firebase',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Backend : ',
+        desc: 'NodeJs,MongoDB,JWT',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'Live  : ',
+        desc: `<a target='_black' href='https://shopsync.surge.sh/'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Client Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/shop-sync-client'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Server Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/shop-sync-server'>Click Here</a>`,
       },
     ],
   },
@@ -303,110 +333,45 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'PageTurner Library',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Web Application',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'N/A',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: 'Video Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Frontend : ',
+        desc: 'ReactJs,Firebase',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Backend : ',
+        desc: 'NodeJs,MongoDB,JWT',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: 'Landing Page',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Live  : ',
+        desc: `<a target='_black' href='https://pageturnerlibrary.surge.sh/'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: 'Client Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/pageturner-library-client'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Server Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/pageturner-library-server'>Click Here</a>`,
       },
     ],
-  },
+  }
 ];
 
 export const themes = [
