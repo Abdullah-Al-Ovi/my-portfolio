@@ -6,13 +6,13 @@
     font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
     margin-bottom: 1rem;
-    color:rgb(190, 187, 187) ;
+    color:rgb(216, 214, 214) ;
 }
 
 .contact__description{
     font-size: var(--small-font-size);
     line-height: 1.6;
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
 }
 
 .contact__description,
@@ -27,16 +27,16 @@
 }
 
 .contact__info .info__icon{
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
     font-size: var(--h2-font-size);
 }
 
 .contact__info .info__title{
     font-size: var(--small-font-size);
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
 }
 .contact__info .info__desc{
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
     font-size: var(--body-font);
     font-weight: var(--weight-500);
 }
@@ -54,11 +54,13 @@
     border: 1px solid var(--container-color);
     background-color: var(--container-color);
     color: rgb(82, 80, 80);
+    font-size: 16px;
     width: 100%;
     padding: 10px 10px;
     border-radius: 30px;
     font-size: var(--small-font-size);
     transition: all 0.3s ease;
+    touch-action: manipulation;
 }
 .contact_form{
     width: 90%;

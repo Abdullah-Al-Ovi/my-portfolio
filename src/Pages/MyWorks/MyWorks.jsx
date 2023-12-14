@@ -7,7 +7,7 @@ export const MyWorks = () => {
  
   return (
     <section className="portfolio section">
-      <h2 className="section__title">My <span>Projects</span></h2>
+      <h2 className="section__title"> <span style={{color:'rgb(214, 211, 211)'}}> My </span><span>Projects</span></h2>
 
       <div className="portfolio__container container grid">
         {

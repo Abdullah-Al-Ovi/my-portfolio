@@ -27,7 +27,7 @@ export const Contact = () => {
 
   return (
     <section className="contact container section">
-      <h2 className="section__title">Get In <span>Touch</span></h2>
+      <h2 className="section__title"><span style={{color:'rgb(214, 211, 211)'}} >Get In </span><span>Touch</span></h2>
 
       <div className="contact__container container grid">
         <div className="contact__data">

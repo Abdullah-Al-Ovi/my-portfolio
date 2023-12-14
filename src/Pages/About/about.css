@@ -16,7 +16,7 @@
     font-size: var(--h2-font-size);
     font-weight: var(--weight-700);
     margin-bottom: 20px;
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
 }
 
 .info__list .info__title
@@ -163,11 +163,11 @@
 .resume__description{
     font-size: var(--smaller-font-size);
     line-height: 1.6;
-    color: rgb(190, 187, 187);
+    color: rgb(216, 214, 214);
 }
 
 .gitLinked{
-    color:rgb(190, 187, 187) ;
+    color:rgb(216, 214, 214) ;
     font-size: 27px;
 
 }

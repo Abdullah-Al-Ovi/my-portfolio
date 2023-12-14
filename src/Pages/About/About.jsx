@@ -2,19 +2,18 @@ import { FaDownload } from "react-icons/fa"
 import { Info } from "../../Components/Info"
 import { Stats } from "../../Components/Stats"
 import { Skills } from "../../Components/Skills"
-import DownloadLink from "react-download-link";
 import { ResumeItem } from "../../Components/ResumeItem"
 import { resume } from "../../../data"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import CV from '../../assets/CV.pdf'
+
 import './about.css'
 export const About = () => {
-    const CV_URL = CV
+   
     return (
         <main className="section container">
             <section className="about">
                 <h2 className="section__title">
-                    About <span>Me</span>
+                   <span style={{color:'rgb(214, 211, 211)'}}> About</span> <span>Me</span>
                 </h2>
                 <div className="about__container grid">
                     <div className="about__info">

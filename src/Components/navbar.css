@@ -127,7 +127,7 @@
         color: var(--text-white);
         opacity: 0;
         visibility: hidden;
-        transition: all 0,3s ease;
+        transition: all 0.4s ease;
     }
 
     .nav__link:hover .nav__name{
