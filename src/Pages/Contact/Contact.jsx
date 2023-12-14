@@ -30,7 +30,9 @@ export const Contact = () => {
       <h2 className="section__title"><span style={{color:'rgb(214, 211, 211)'}} >Get In </span><span>Touch</span></h2>
 
       <div className="contact__container container grid">
-        <div className="contact__data">
+        <div className="contact__data" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" >
           <h3 className="contact__title">Feel free to contact...</h3>
 
           <p className="contact__description">
@@ -55,7 +57,8 @@ export const Contact = () => {
           </div>
           
         </div>
-        <form ref={form} onSubmit={sendEmail} className="contact_form">
+        <form ref={form} onSubmit={sendEmail} className="contact_form" data-aos="fade-up"
+     data-aos-duration="1500">
           <div className="form__input-group">
             <div className="form__input-div">
               <input  type="text" name='user_name' placeholder='Your Name' className="form__control" required />

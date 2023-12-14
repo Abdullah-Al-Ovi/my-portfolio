@@ -7,11 +7,11 @@ export const Home = () => {
     return (
         <section className="home section grid">
             <img src={Profile} alt="Profile" className="home__img" />
-            <div className="home__content">
+            <div className="home__content" data-aos="zoom-out-up"  data-aos-duration="2000">
                 <div className="home__data">
                     <h1 className="home__title">
                         <span>Greetings.
-                            <span style={{display:'block'}}>I am Abdullah Al Ovi</span></span>
+                            <span style={{display:'block',color:'rgb(216, 214, 214)'}}>I am Abdullah Al Ovi</span></span>
                        
                     </h1>
 

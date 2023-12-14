@@ -12,7 +12,7 @@ export const AnimatedCircularProgressBar = ({ percentage }) => {
   useEffect(() => {
     if (isVisible) {
       const animationDuration = 1000; // Adjust the duration as needed
-      const interval = 10;
+      const interval = 100;
       let currentPercentage = 0;
 
       const animationInterval = setInterval(() => {
@@ -49,7 +49,7 @@ export const AnimatedCircularProgressBar = ({ percentage }) => {
           styles={customStyles}
           value={animatedPercentage}
           text={`${animatedPercentage}%`}
-          strokeWidth={8} // Adjust the strokeWidth as needed
+          strokeWidth={8} 
         />
       </div>
     </VisibilitySensor>

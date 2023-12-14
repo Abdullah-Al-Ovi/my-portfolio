@@ -8,14 +8,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 import './about.css'
 export const About = () => {
-   
+
     return (
-        <main className="section container">
+        <main className="section container" >
             <section className="about">
                 <h2 className="section__title">
-                   <span style={{color:'rgb(214, 211, 211)'}}> About</span> <span>Me</span>
+                    <span style={{ color: 'rgb(214, 211, 211)' }}> About</span> <span>Me</span>
                 </h2>
-                <div className="about__container grid">
+                <div className="about__container grid" data-aos="zoom-in-down"  data-aos-duration="1500">
                     <div className="about__info">
                         <h3 className="section__subtitle">Personal Info</h3>
                         <ul className="info__list grid">
@@ -25,9 +25,9 @@ export const About = () => {
                             <a target="_blank" rel="noreferrer" href="https://github.com/Abdullah-Al-Ovi" className="gitLinked"><FaGithub></FaGithub></a>
                             <a target="_blank" rel="noreferrer" className="gitLinked" href="https://www.linkedin.com/in/abdullah-al-ovi-7042b12a3/" ><FaLinkedin></FaLinkedin></a>
                         </div>
-                        <a href='https://drive.google.com/file/d/1umVq473y46hrzzmyaW3sD_O7OsCxAruw/view?usp=sharing' 
-                        target="_blank" rel="noreferrer" className="button">Download CV <span className="button__icon"><FaDownload></FaDownload></span></a>
-                        
+                        <a href='https://drive.google.com/file/d/1umVq473y46hrzzmyaW3sD_O7OsCxAruw/view?usp=sharing'
+                            target="_blank" rel="noreferrer" className="button">Download CV <span className="button__icon"><FaDownload></FaDownload></span></a>
+
                     </div>
 
                     <div style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '15px', padding: '20px', marginRight: '10px' }} className="stats">
@@ -49,7 +49,9 @@ export const About = () => {
             <section className="resume">
                 <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
                 <div className="resume__container grid">
-                    <div className="resume__data">
+                    <div className="resume__data" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         {
                             resume?.map((val) => {
                                 if (val?.category === 'experience') {
@@ -58,7 +60,8 @@ export const About = () => {
                             })
                         }
                     </div>
-                    <div className="resume__data">
+                    <div className="resume__data" data-aos="fade-up"
+                        data-aos-duration="1500">
                         {
                             resume?.map((val) => {
                                 if (val?.category === 'education') {
