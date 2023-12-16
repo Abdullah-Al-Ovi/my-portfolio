@@ -25,8 +25,8 @@ export const About = () => {
                             <a target="_blank" rel="noreferrer" href="https://github.com/Abdullah-Al-Ovi" className="gitLinked"><FaGithub></FaGithub></a>
                             <a target="_blank" rel="noreferrer" className="gitLinked" href="https://www.linkedin.com/in/abdullah-al-ovi-7042b12a3/" ><FaLinkedin></FaLinkedin></a>
                         </div>
-                        <a href='https://drive.google.com/file/d/1umVq473y46hrzzmyaW3sD_O7OsCxAruw/view?usp=sharing'
-                            target="_blank" rel="noreferrer" className="button">Download CV <span className="button__icon"><FaDownload></FaDownload></span></a>
+                        <a href='https://drive.google.com/file/d/1OlwBeoeYuoQZzQxuHnw8lH-R1_NO3vE1/view'
+                            target="_blank" rel="noreferrer" className="button">Download Resume <span className="button__icon"><FaDownload></FaDownload></span></a>
 
                     </div>
 
