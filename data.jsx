@@ -8,9 +8,9 @@ import {
   FaCode,
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
-import Work1 from './src/assets/project-1.jpeg';
-import Work2 from './src/assets/project-2.jpg';
-import Work3 from './src/assets/project-3.jpeg';
+import Work1 from './src/assets/project_1.png';
+import Work2 from './src/assets/project_2.png';
+import Work3 from './src/assets/project_3.png';
 
 export const links = [
   {
@@ -153,9 +153,25 @@ export const resume = [
     title: 'Project <span> Shop Sync </span>',
     desc: 'This web application is for those who wants to manage their shop with much relaxation and less effort.',
   },
-
   {
     id: 4,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Jan, 24 - March, 24',
+    title: "Project <span> Vibin' </span>",
+    desc: 'An innovative social media platform to redefine online social interaction by seamlessly integrating AI capabilities.',
+  },
+  {
+    id: 5,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'March,2024',
+    title: 'Project <span> UVA Tracker </span>',
+    desc: 'UVA online judge submission list tracker and ranking of students of BUCSE-8 on some given coding problems',
+  },
+
+  {
+    id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2020-2024',
@@ -164,7 +180,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 7,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2019',
@@ -174,7 +190,7 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 8,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2017',
@@ -187,31 +203,31 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '89',
+    percentage: '90',
   },
 
   {
     id: 2,
     title: 'CSS',
-    percentage: '84',
+    percentage: '80',
   },
 
   {
     id: 3,
     title: 'Javascript',
-    percentage: '82',
+    percentage: '85',
   },
 
   {
     id: 4,
     title: 'React',
-    percentage: '90',
+    percentage: '85',
   },
 
   {
     id: 5,
-    title: 'NodeJs',
-    percentage: '30',
+    title: 'ExpressJs',
+    percentage: '50',
   },
 
   {
@@ -223,7 +239,7 @@ export const skills = [
   {
     id: 7,
     title: 'MySql',
-    percentage: '70',
+    percentage: '50',
   }
  
 ];
@@ -232,7 +248,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Trend Junction',
+    title: "Vibin'",
     details: [
       {
         icon: <FiFileText />,
@@ -247,27 +263,27 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Frontend : ',
-        desc: 'ReactJs,Firebase',
+        desc: 'ReactJs, Redux Toolkit, Socket.io',
       },
       {
         icon: <FaCode />,
         title: 'Backend : ',
-        desc: 'NodeJs,MongoDB',
+        desc: 'ExpressJs,Mongoose',
       },
       {
         icon: <FiExternalLink />,
         title: 'Live  : ',
-        desc: `<a target='_black' href='https://trend-junction-shop.surge.sh/'>Click Here</a>`,
+        desc: `<a target='_black' href='https://vibin1.netlify.app/vibinai'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,
         title: 'Client Code  : ',
-        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/trend-junction-client'>Click Here</a>`,
+        desc: `<a target='_black' href='https://github.com/DevDynasty0/Vibin--social-media-platform'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,
         title: 'Server Code  : ',
-        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/trend-junction-server'>Click Here</a>`,
+        desc: `<a target='_black' href='https://github.com/DevDynasty0/Vibin--social-media-platform-backend'>Click Here</a>`,
       },
     ],
   },
@@ -318,7 +334,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'PageTurner Library',
+    title: 'UVA Tracker',
     details: [
       {
         icon: <FiFileText />,
@@ -328,32 +344,32 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'N/A',
+        desc: 'Course Teacher',
       },
       {
         icon: <FaCode />,
         title: 'Frontend : ',
-        desc: 'ReactJs,Firebase',
+        desc: 'ReactJs, UVA API',
       },
       {
         icon: <FaCode />,
         title: 'Backend : ',
-        desc: 'NodeJs,MongoDB,JWT',
+        desc: 'N/A',
       },
       {
         icon: <FiExternalLink />,
         title: 'Live  : ',
-        desc: `<a target='_black' href='https://pageturnerlibrary.surge.sh/'>Click Here</a>`,
+        desc: `<a target='_black' href='https://uva-submission-list-and-contest-bu-cse-8.vercel.app/'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,
         title: 'Client Code  : ',
-        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/pageturner-library-client'>Click Here</a>`,
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/uva-problem-solving-list-cse-8'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,
         title: 'Server Code  : ',
-        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/pageturner-library-server'>Click Here</a>`,
+        desc: `N/A`,
       },
     ],
   }

@@ -44,14 +44,14 @@ export const Contact = () => {
               <FaEnvelopeOpen className='info__icon'/>
               <div>
                 <span className="info__title">Mail me: </span>
-                <h4 className="info__desc">abdullah.ovi098@gmail.com</h4>
+                <a href="mailto:abdullah.ovi098@gmail.com" className="info__desc">abdullah.ovi098@gmail.com</a>
               </div>
             </div>
             <div className="info__item">
               <FaPhoneSquareAlt className='info__icon'/>
               <div>
                 <span className="info__title">Call me: </span>
-                <h4 className="info__desc">+880 01754448783</h4>
+                <a href="tel:+88001754448783" className="info__desc">+880 01754448783</a>
               </div>
             </div>
           </div>

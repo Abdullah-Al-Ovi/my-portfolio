@@ -1,7 +1,20 @@
+@media screen and (min-width:1402px) {
+    .contact .grid{
+        gap: 60px;
+    }
+     .home__description{
+        font-size: 17px;
+    }
+    .home__title{
+        font-size: 29px;
+    }
+    
+}
+
 @media screen and (max-width:1400px) {
     .container {
         max-width: calc(100% - 180px);
-    }
+    } 
 }
 
 @media screen and (max-width:1200px) {

@@ -26,7 +26,7 @@ export const PortfolioItem = ({ img, title, details }) => {
                 details?.map(({icon,title,desc},index)=>{
                   return (
                     <li className="modal__item" key={index}>
-                      <span className='item__icon'>{icon}</span>
+                      <span style={{marginTop:'4px'}}  className='item__icon'>{icon}</span>
                       <div>
                         <span className="item__title">{title}</span>
                         <span className="item__details">{Parse(desc)}</span>

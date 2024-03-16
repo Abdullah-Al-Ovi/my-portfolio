@@ -114,6 +114,7 @@
 
 .modal__item{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     column-gap: 6px;
+    /* justify-content: center; */
 }
