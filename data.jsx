@@ -11,6 +11,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './src/assets/project_1.png';
 import Work2 from './src/assets/project_2.png';
 import Work3 from './src/assets/project_3.png';
+import Work4 from './src/assets/project_4.png';
 
 export const links = [
   {
@@ -103,8 +104,8 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: 'N/A',
-    title: 'Years of <br /> Experience',
+    no: '3 months',
+    title: 'of professional Experience',
   },
 
   {
@@ -121,8 +122,8 @@ export const stats = [
 
   {
     id: 4,
-    no: 'N/A',
-    title: ' Awards <br /> Won',
+    no: '1+',
+    title: 'Years of <br /> working Experience',
   },
 ];
 
@@ -131,44 +132,44 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: 'October,2023',
-    title: 'Project <span> Trend Junction </span>',
-    desc: 'Is is basically an online shopping platform from where people can purchase products of Adidas,Nike,Levis,Puma '
-  },
+    year: 'May 2024 - July 2024',
+    title: 'Intern Back-End Developer <br /> <span> MNTech Digital </span>',
+    desc: 'Developed a web application backend using Express.js, MySQL, and Prisma. Worked with a team to implement database structures and API integrations, ensuring smooth client-server interactions.',
+},
 
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: 'November,2023',
-    title: 'Project <span> PageTurner Library </span>',
-    desc: 'It is an online based library management system from where validate user can issue books to borrow and return.',
-  },
+  // {
+  //   id: 2,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: 'November,2023',
+  //   title: 'Project <span> PageTurner Library </span>',
+  //   desc: 'It is an online based library management system from where validate user can issue books to borrow and return.',
+  // },
 
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: 'December,2023',
-    title: 'Project <span> Shop Sync </span>',
-    desc: 'This web application is for those who wants to manage their shop with much relaxation and less effort.',
-  },
-  {
-    id: 4,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: 'Jan, 24 - March, 24',
-    title: "Project <span> Vibin' </span>",
-    desc: 'An innovative social media platform to redefine online social interaction by seamlessly integrating AI capabilities.',
-  },
-  {
-    id: 5,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: 'March,2024',
-    title: 'Project <span> UVA Tracker </span>',
-    desc: 'UVA online judge submission list tracker and ranking of students of BUCSE-8 on some given coding problems',
-  },
+  // {
+  //   id: 3,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: 'December,2023',
+  //   title: 'Project <span> Shop Sync </span>',
+  //   desc: 'This web application is for those who wants to manage their shop with much relaxation and less effort.',
+  // },
+  // {
+  //   id: 4,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: 'Jan, 24 - March, 24',
+  //   title: "Project <span> Vibin' </span>",
+  //   desc: 'An innovative social media platform to redefine online social interaction by seamlessly integrating AI capabilities.',
+  // },
+  // {
+  //   id: 5,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: 'March,2024',
+  //   title: 'Project <span> UVA Tracker </span>',
+  //   desc: 'UVA online judge submission list tracker and ranking of students of BUCSE-8 on some given coding problems',
+  // },
 
   {
     id: 6,
@@ -176,7 +177,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2020-2024',
     title: 'Computer Science <span> Barishal University </span>',
-    desc: `Currently Studying with CGPA 3.20`,
+    desc: `Currently Studying with CGPA 3.25`,
   },
 
   {
@@ -185,18 +186,8 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2019',
     title: 'Higher Secondary <span> Hatem Ali College,Barishal </span>',
-    desc: `
-    GPA: 4.94`,
-  },
-
-  {
-    id: 8,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2017',
-    title: 'Secondary <span> Barishal Zila School </span>',
-    desc: `GPA: 5.00 <br> With Divisional Scholarship.`,
-  },
+    desc: `GPA: 4.92`,
+  }
 ];
 
 export const skills = [
@@ -227,19 +218,19 @@ export const skills = [
   {
     id: 5,
     title: 'ExpressJs',
-    percentage: '50',
+    percentage: '80',
   },
 
   {
     id: 6,
     title: 'MongoDB',
-    percentage: '50',
+    percentage: '80',
   },
 
   {
     id: 7,
     title: 'MySql',
-    percentage: '50',
+    percentage: '80',
   }
  
 ];
@@ -257,8 +248,8 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'N/A',
+        title: 'Type : ',
+        desc: 'Group Project',
       },
       {
         icon: <FaCode />,
@@ -268,7 +259,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Backend : ',
-        desc: 'ExpressJs,Mongoose',
+        desc: 'Express.js, MongoDB, Mongoose',
       },
       {
         icon: <FiExternalLink />,
@@ -300,18 +291,18 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'N/A',
+        title: 'Type : ',
+        desc: 'Personal Project',
       },
       {
         icon: <FaCode />,
         title: 'Frontend : ',
-        desc: 'ReactJs,Firebase',
+        desc: 'React.js',
       },
       {
         icon: <FaCode />,
         title: 'Backend : ',
-        desc: 'NodeJs,MongoDB,JWT',
+        desc: 'Express.js, MongoDB',
       },
       {
         icon: <FiExternalLink />,
@@ -343,13 +334,13 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Course Teacher',
+        title: 'Type : ',
+        desc: 'Course Project',
       },
       {
         icon: <FaCode />,
         title: 'Frontend : ',
-        desc: 'ReactJs, UVA API',
+        desc: 'ReactJs',
       },
       {
         icon: <FaCode />,
@@ -365,6 +356,48 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Client Code  : ',
         desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/uva-problem-solving-list-cse-8'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Server Code  : ',
+        desc: `N/A`,
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: Work4,
+    title: 'Shortest Path Finder',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Web Application',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Type : ',
+        desc: 'Course Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Frontend : ',
+        desc: 'HTML, CSS, JavaScript',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Backend : ',
+        desc: 'N/A',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Live  : ',
+        desc: `<a target='_black' href='https://shortest-path-finder-gules.vercel.app/'>Click Here</a>`,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Client Code  : ',
+        desc: `<a target='_black' href='https://github.com/Abdullah-Al-Ovi/shortest-path-finder-using-Dijkstra'>Click Here</a>`,
       },
       {
         icon: <FiExternalLink />,

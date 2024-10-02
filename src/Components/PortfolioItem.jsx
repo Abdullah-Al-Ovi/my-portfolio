@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Parse from 'html-react-parser'
 export const PortfolioItem = ({ img, title, details }) => {
   const [modal,setModal] = useState(false)
